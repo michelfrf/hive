@@ -1,0 +1,157 @@
+.App {
+    /*width: 100%;*/
+}
+
+.App-logo {
+    height: 6em;
+    padding: 1.5em 0.5em 1.5em 2em;
+}
+
+.App-logo-container p {
+    font-size: 1.3em;
+}
+
+.App-link {
+    padding-right: 5em;
+}
+
+.App-link {
+    color: #f7b90b;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    height: 35em;
+    background-color: #f7b90b;
+    color: black;
+}
+
+.hero h1 {
+    padding-top: 1.5em;
+    padding-bottom: 0.2em;
+    line-height: 0.8em;
+    font-size: 7em;
+    font-weight: bold;
+}
+
+.hero p {
+    padding-bottom: 1em;
+    font-weight: lighter;
+}
+
+.hero-left {
+    padding-left: 5em;
+}
+
+.hero a {
+    margin: 0 1em;
+}
+
+.section-main {
+    text-align: center;
+    height: 35em;
+}
+
+.section-main h1 {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    line-height: 0.8em;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.section-main .main-item {
+    width: 17%;
+}
+
+.section-main .main-item h2{
+    padding-top: 1em;
+    color: #f7b90b;
+}
+
+.section-main .main-item p{
+    padding-top: 1em;
+}
+
+.section-secondary {
+    background-color: #f7b90b;
+    height: 37em;
+}
+
+.section-secondary h1 {
+    text-align: right;
+    padding-right: 1.2em;
+    padding-top: 1.2em;
+    font-size: 10.5vW;
+    font-weight: bold;
+}
+
+.section-secondary h1 span{
+    color: black;
+}
+
+.section-secondary p {
+    color: black;
+    font-size: 1.2em;
+    padding-top: 1.2em;
+}
+footer p{
+    padding: 1em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f7b90b;
+}
+
+@media screen and (min-width: 1200px) {
+    .section-secondary p {
+        padding-left: 30em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .App-link {
+        display: none;
+    }
+    .App-header .MuiGrid-container {
+        justify-content: center !important;
+    }
+    .App-header .MuiGrid-container p{
+        display: none;
+    }
+    .hero {
+        height: 85vH;
+    }
+    .hero h1 {
+        padding-top: 1.5em;
+        padding-bottom: 0.2em;
+        line-height: 0.8em;
+        font-size: 17vW;
+        font-weight: bold;
+    }
+    .section-main .main-item {
+        display: block;
+        padding: 1em 0;
+        width: 70%;
+    }
+    .section-main {
+        height: 115vH;
+    }
+    .section-main h1 {
+        padding-top: 6.5vH;
+        padding-bottom: 1.5vH;
+        line-height: 0.8em;
+        font-size: 4em;
+        font-weight: bold;
+    }
+    .section-main p {
+        padding-bottom: 1.5vH;
+    }
+    .section-secondary {
+        height: 50vH;
+    }
+}
